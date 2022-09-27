@@ -1,0 +1,10 @@
+.header {
+    background-color: rgb(58, 166, 202);
+    color: antiquewhite;
+    padding: 0 10px;
+}
+
+h1 {
+    background-color: inherit;
+    font-size: 3rem;
+}
