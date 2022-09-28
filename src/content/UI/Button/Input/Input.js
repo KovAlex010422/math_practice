@@ -1,9 +1,9 @@
 import React from 'react';
-import './input_styles.css';
+import classes from './input_styles.module.css';
 
-function Input({placeholder, type }) {
+function Input( props ) {
   return (
-    <input className='input_styles' placeholder={placeholder} type={type} />
+    <input className={classes.input_styles} {...props} />
   )
 }
 

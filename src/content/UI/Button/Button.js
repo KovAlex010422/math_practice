@@ -1,9 +1,11 @@
 import React from 'react'
 import './btn_styles.css'
 
-function Button({children}) {
+function Button({ children, ...props }) {
   return (
-    <button className='btn_styles'>{children}</button>
+    <button className='btn_styles' {...props}>
+      { children } 
+    </button>
   )
 }
 
