@@ -6,39 +6,9 @@ const Content = () => {
   return (
     <div className='body_content'>
       <FormGenerateEquations />
-      <Equation />
-      <Equation />
-      <Equation />
-      <Equation />
-      <Equation />
-      <Equation />
-      <Equation />
-      <Equation />
-      <Equation />
-      <Equation />
-      <Equation />
-      <Equation />
-      <Equation />
-      <Equation />
-      <Equation />
-      <Equation />
-      <Equation />
-      <Equation />
-      <Equation />
-      <Equation />
-      <Equation />
-      <Equation />
-      <Equation />
-      <Equation />
-      <Equation />
-      <Equation />
-      <Equation />
-      <Equation />
-      <Equation />
-      <Equation />
-
+      {[...Array(20).keys()].map( (index) => <Equation key={index} />)}
     </div>
   )
-  }
+}
 
 export default Content
