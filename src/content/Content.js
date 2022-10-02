@@ -6,7 +6,7 @@ const Content = () => {
   return (
     <div className='body_content'>
       <FormGenerateEquations />
-      {[...Array(20).keys()].map( (index) => <Equation key={index} />)}
+      {[...Array(10).keys()].map( (index) => <Equation key={index} />)}
     </div>
   )
 }
